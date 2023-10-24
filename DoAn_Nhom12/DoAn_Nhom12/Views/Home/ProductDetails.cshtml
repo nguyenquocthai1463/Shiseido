@@ -1,0 +1,483 @@
+﻿@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shiseido/_LayoutPage1.cshtml";
+}
+<style>
+    img {
+        vertical-align: middle;
+    }
+
+    .product-details {
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    .pd-left {
+        position: relative;
+        width: 45%;
+    }
+
+    .pd-list-small-img {
+        margin: 0 30px;
+    }
+
+    .pd-small-img {
+        margin: 5px;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    .pd-small-img:hover {
+        opacity: .6;
+    }
+
+    .pd-big-img {
+        display: none;
+        margin: 20px 45px;
+    }
+
+    .pd-next, .pd-prev{
+        cursor: pointer;
+        position: absolute;
+        font-size: 20px;
+        color: #666;
+        bottom: 8%;
+    }
+
+    .pd-next {
+        right: 0;
+    }
+
+    .pd-right {
+        width: 55%;
+    }
+
+    .pd-brand {
+        font-size: 16px;
+        color: #666;
+        font-family: Arial,sans-serif;
+    }
+
+    .pd-name {
+        font-size: 28px;
+        font-family: Arial,Medium,sans-serif;
+    }
+
+    .pd-description span{
+        font-size: 14px;
+        color: #666;
+    }
+
+        .pd-description span a {
+            text-decoration: underline;
+            color: #666;
+        }
+
+    .dott {
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+        margin: 0 7px;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+</style>
+<div class="product-details container" id="SonGelTechnoSatin">
+    <div class="row">
+        <div class="pd-left col slideshow">
+            <div class="pd-mySlides mySlides">
+                <div class="mySlides-m1 pd-big-img">
+                    <img src="~/Style/images/d9695b.jpg" style="width:100%">
+                </div>
+                    
+                <div class="mySlides-m1 pd-big-img">
+                    <img src="~/Style/images/d9695b-s2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m1 pd-big-img">
+                    <img src="~/Style/images/d9695b-s3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m1 pd-big-img">
+                    <img src="~/Style/images/d9695b-s4.jpg" style="width:100%">
+                </div>
+
+                <a class="pd-prev" onclick="plusSlides01(-1)">❮</a>
+                <a class="pd-next" onclick="plusSlides01(1)">❯</a>
+
+                <div class="row pd-list-small-img">
+                    <div class="col pd-small-img">
+                        <img class="demo-m1 cursor" src="~/Style/images/d9695b.jpg" style="width:100%" onclick="currentSlide01(1)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m1 cursor" src="~/Style/images/d9695b-s2.jpg" style="width:100%" onclick="currentSlide01(2)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m1 cursor" src="~/Style/images/d9695b-s3.jpg" style="width:100%" onclick="currentSlide01(3)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m1 cursor" src="~/Style/images/d9695b-s4.jpg" style="width:100%" onclick="currentSlide01(4)">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-mySlides mySlides">
+                <div class="mySlides-m2 pd-big-img">
+                    <img src="~/Style/images/ba7051.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m2 pd-big-img">
+                    <img src="~/Style/images/ba7051-s2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m2 pd-big-img">
+                    <img src="~/Style/images/ba7051-s3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m2 pd-big-img">
+                    <img src="~/Style/images/ba7051-s4.jpg" style="width:100%">
+                </div>
+
+                <a class="pd-prev" onclick="plusSlides02(-1)">❮</a>
+                <a class="pd-next" onclick="plusSlides02(1)">❯</a>
+
+                <div class="row pd-list-small-img">
+                    <div class="col pd-small-img">
+                        <img class="demo-m2 cursor" src="~/Style/images/ba7051.jpg" style="width:100%" onclick="currentSlide02(1)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m2 cursor" src="~/Style/images/ba7051-s2.jpg" style="width:100%" onclick="currentSlide02(2)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m2 cursor" src="~/Style/images/ba7051-s3.jpg" style="width:100%" onclick="currentSlide02(3)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m2 cursor" src="~/Style/images/ba7051-s4.jpg" style="width:100%" onclick="currentSlide02(4)">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-mySlides mySlides">
+                <div class="mySlides-m3 pd-big-img">
+                    <img src="~/Style/images/c15b59.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m3 pd-big-img">
+                    <img src="~/Style/images/c15b59-s2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m3 pd-big-img">
+                    <img src="~/Style/images/c15b59-s3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m3 pd-big-img">
+                    <img src="~/Style/images/c15b59-s4.jpg" style="width:100%">
+                </div>
+
+                <a class="pd-prev" onclick="plusSlides03(-1)">❮</a>
+                <a class="pd-next" onclick="plusSlides03(1)">❯</a>
+
+                <div class="row pd-list-small-img">
+                    <div class="col pd-small-img">
+                        <img class="demo-m3 cursor" src="~/Style/images/c15b59.jpg" style="width:100%" onclick="currentSlide03(1)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m3 cursor" src="~/Style/images/c15b59-s2.jpg" style="width:100%" onclick="currentSlide03(2)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m3 cursor" src="~/Style/images/c15b59-s3.jpg" style="width:100%" onclick="currentSlide03(3)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m3 cursor" src="~/Style/images/c15b59-s4.jpg" style="width:100%" onclick="currentSlide03(4)">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-mySlides mySlides">
+                <div class="mySlides-m4 pd-big-img">
+                    <img src="~/Style/images/b05f4e.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m4 pd-big-img">
+                    <img src="~/Style/images/b05f4e-s2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m4 pd-big-img">
+                    <img src="~/Style/images/b05f4e-s3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m4 pd-big-img">
+                    <img src="~/Style/images/b05f4e-s4.jpg" style="width:100%">
+                </div>
+
+                <a class="pd-prev" onclick="plusSlides04(-1)">❮</a>
+                <a class="pd-next" onclick="plusSlides04(1)">❯</a>
+
+                <div class="row pd-list-small-img">
+                    <div class="col pd-small-img">
+                        <img class="demo-m4 cursor" src="~/Style/images/b05f4e.jpg" style="width:100%" onclick="currentSlide04(1)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m4 cursor" src="~/Style/images/b05f4e-s2.jpg" style="width:100%" onclick="currentSlide04(2)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m4 cursor" src="~/Style/images/b05f4e-s3.jpg" style="width:100%" onclick="currentSlide04(3)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m4 cursor" src="~/Style/images/b05f4e-s4.jpg" style="width:100%" onclick="currentSlide04(4)">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-mySlides mySlides">
+                <div class="mySlides-m5 pd-big-img">
+                    <img src="~/Style/images/e27b97.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m5 pd-big-img">
+                    <img src="~/Style/images/e27b97-s2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m5 pd-big-img">
+                    <img src="~/Style/images/e27b97-s3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides-m5 pd-big-img">
+                    <img src="~/Style/images/e27b97-s4.jpg" style="width:100%">
+                </div>
+
+                <a class="pd-prev" onclick="plusSlides05(-1)">❮</a>
+                <a class="pd-next" onclick="plusSlides05(1)">❯</a>
+
+                <div class="row pd-list-small-img">
+                    <div class="col pd-small-img">
+                        <img class="demo-m5 cursor" src="~/Style/images/e27b97.jpg" style="width:100%" onclick="currentSlide05(1)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m5 cursor" src="~/Style/images/e27b97-s2.jpg" style="width:100%" onclick="currentSlide05(2)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m5 cursor" src="~/Style/images/e27b97-s3.jpg" style="width:100%" onclick="currentSlide05(3)">
+                    </div>
+                    <div class="col pd-small-img">
+                        <img class="demo-m5 cursor" src="~/Style/images/e27b97-s4.jpg" style="width:100%" onclick="currentSlide05(4)">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pd-right col">
+            <div class="pd-title">
+                <h3 class="pd-brand">
+                    SHISEIDO MAKEUP
+                </h3>
+                <h2 class="pd-name">
+                    <b>Son Gel TechnoSatin</b>
+                </h2>
+            </div>
+            <div class="pd-description">
+                <span>
+                    Một thỏi son lý tưởng siêu thoải mái, mỏng nhẹ tựa không, với công nghệ<br />
+                    Stretch-Flex ôm trọn đôi môi với chất son satin ẩm mịn và sắc màu bền lâu<br />
+                    suốt ngày dài.<br />
+                    Giá bán:<br />
+                    800.000 VNĐ
+                    <a href="">More Details</a>
+                </span>
+            </div>
+            <div class="slideshow">
+                <div class="pd-mySlides mySlides pd-tile-color">
+                    <div class="pd-title-product">
+                        <p>
+                            Select color: Chatbot 402
+                        </p>
+                    </div>
+                </div>
+                <div class="pd-mySlides mySlides pd-tile-color">
+                    <div class="pd-title-product">
+                        <p>
+                            Select color: Augmented Nude 403
+                        </p>
+                    </div>
+                </div>
+                <div class="pd-mySlides mySlides pd-tile-color">
+                    <div class="pd-title-product">
+                        <p>
+                            Select color: Data Stream 404
+                        </p>
+                    </div>
+                </div>
+                <div class="pd-mySlides mySlides pd-tile-color">
+                    <div class="pd-title-product">
+                        <p>
+                            Select color: Playback 405
+                        </p>
+                    </div>
+                </div>
+                <div class="pd-mySlides mySlides pd-tile-color">
+                    <div class="pd-title-product">
+                        <p>
+                            Select color: Pulsar Pink 407
+                        </p>
+                    </div>
+                </div>
+                <div class="chosse-color">
+                    <div class="dott-main" style="text-align:center">
+                        <span class="dotPD dott" onclick="currentSlidePD(1)" style="background-color: #d9695b"></span>
+                        <span class="dotPD dott" onclick="currentSlidePD(2)" style="background-color: #ba7051"></span>
+                        <span class="dotPD dott" onclick="currentSlidePD(3)" style="background-color: #c15b59"></span>
+                        <span class="dotPD dott" onclick="currentSlidePD(4)" style="background-color: #b05f4e"></span>
+                        <span class="dotPD dott" onclick="currentSlidePD(5)" style="background-color: #e27b97"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let slideIndex = 1;
+    showSlides01(slideIndex);
+    showSlides02(slideIndex);
+    showSlides03(slideIndex);
+    showSlides04(slideIndex);
+    showSlides05(slideIndex);
+    showSlidesPD(slideIndex);
+
+    function plusSlides01(n) {
+        showSlides01(slideIndex += n);
+    }
+
+    function plusSlides02(n) {
+        showSlides02(slideIndex += n);
+    }
+
+    function plusSlides03(n) {
+        showSlides03(slideIndex += n);
+    }
+
+    function plusSlides04(n) {
+        showSlides04(slideIndex += n);
+    }
+
+    function plusSlides05(n) {
+        showSlides05(slideIndex += n);
+    }
+
+    function currentSlidePD(n) {
+        showSlidesPD(slideIndex = n);
+    }
+
+    function currentSlide01(n) {
+        showSlides01(slideIndex = n);
+    }
+
+    function currentSlide02(n) {
+        showSlides02(slideIndex = n);
+    }
+
+    function currentSlide03(n) {
+        showSlides03(slideIndex = n);
+    }
+
+    function currentSlide04(n) {
+        showSlides04(slideIndex = n);
+    }
+
+    function currentSlide05(n) {
+        showSlides05(slideIndex = n);
+    }
+
+    function showSlides01(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides-m1");
+        let dots = document.getElementsByClassName("demo-m1");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    function showSlides02(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides-m2");
+        let dots = document.getElementsByClassName("demo-m2");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    function showSlides03(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides-m3");
+        let dots = document.getElementsByClassName("demo-m3");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    function showSlides04(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides-m4");
+        let dots = document.getElementsByClassName("demo-m4");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    function showSlides05(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides-m5");
+        let dots = document.getElementsByClassName("demo-m5");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    function showSlidesPD(n) {
+        let i;
+        let slides = document.getElementsByClassName("pd-mySlides");
+        let dots = document.getElementsByClassName("dotPD");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    } 
+
+</script>
