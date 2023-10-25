@@ -32,3 +32,71 @@ F:\WorkSpace\LuuDuLieuSinhVien\LapTrinhWeb\DoAn_Nhom12\DoAn_Nhom12\bin\System.We
 F:\WorkSpace\LuuDuLieuSinhVien\LapTrinhWeb\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.AssemblyReference.cache
 F:\WorkSpace\LuuDuLieuSinhVien\LapTrinhWeb\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.CoreCompileInputs.cache
 F:\WorkSpace\LuuDuLieuSinhVien\LapTrinhWeb\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.CopyComplete
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\DoAn_Nhom12.dll.config
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\DoAn_Nhom12.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\DoAn_Nhom12.pdb
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Antlr3.Runtime.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\EntityFramework.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Newtonsoft.Json.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Net.Http.Formatting.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.WebHost.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Mvc.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Optimization.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Providers.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Razor.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\WebGrease.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\EntityFramework.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Newtonsoft.Json.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Net.Http.Formatting.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.WebHost.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Mvc.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Razor.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.CopyComplete
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.dll
+C:\Users\ACER\Documents\Documents\GitHub\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.pdb
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\DoAn_Nhom12.dll.config
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\DoAn_Nhom12.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\DoAn_Nhom12.pdb
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Antlr3.Runtime.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\EntityFramework.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Newtonsoft.Json.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Net.Http.Formatting.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.WebHost.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Mvc.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Optimization.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Providers.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Razor.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\WebGrease.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\EntityFramework.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\Newtonsoft.Json.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Net.Http.Formatting.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Http.WebHost.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Mvc.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.Razor.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.csproj.CopyComplete
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.dll
+C:\Users\ACER\OneDrive - Ho Chi Minh city University of Food Industry\Desktop\Shiseido\DoAn_Nhom12\DoAn_Nhom12\obj\Debug\DoAn_Nhom12.pdb

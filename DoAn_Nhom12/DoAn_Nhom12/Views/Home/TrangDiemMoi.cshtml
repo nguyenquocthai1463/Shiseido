@@ -2,8 +2,136 @@
     ViewBag.Title = "TrangDiemMoi";
     Layout = "~/Views/Shiseido/_LayoutPage1.cshtml";
 }
+<link rel="stylesheet" href="~/Style/Css/category.css" />
+<link rel="stylesheet" href="~/Style/Css/product.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<div class="container-fluid">
+    <div class="products-category-wrapper">
+        <div class="container-dot-category">
+            shiseido
+        </div>
+        <div class="toolbar-row">
+            <div class="toolbar-wrapper">
+                <div class="sorting">
+                    <div class="sorting-wrapper">
+                        <ul class="nav">
+                            <li class="button-dropdown">
+                                <a href="javascript:void(0)" class="dropdown-toggle">
+                                    Relevance
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Relevance
 
-<div class="container">
+                                        </a>
+                                    </li>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Price Low To High
+                                        </a>
+                                    </li>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Price High To Low
+                                        </a>
+                                    </li>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Brand
+                                        </a>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Most Popular
+                                        </a>
+
+                                    </li>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Top Rated
+                                        </a>
+                                    </li>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            New Arrival
+                                        </a>
+                                    </li>
+                                    <li class="filter-option-selected">
+                                        <a class="dropdown-menu-checkbox" href="#">
+                                            Best Seller
+                                        </a>
+                                    </li>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <ul class="nav">
+                    <li class="button-dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">
+                            Collection
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="filter-option-selected">
+                                <a class="dropdown-menu-checkbox" href="#">
+                                    <i class="icon icon-check-mark filter-check-mark"></i>
+                                    SHISEIDO
+                                </a>
+                            </li>
+                            <li class="filter-option-selected">
+                                <a class="dropdown-menu-checkbox" href="#">
+                                    <i class="icon icon-check-mark filter-check-mark"></i>
+                                    SHISEIDO MAKEUP
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="button-dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">
+                            Concern
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="filter-option-selected">
+                                <a class="dropdown-menu-checkbox" href="#">
+                                    <i class="icon icon-check-mark filter-check-mark"></i>
+                                    Mới
+                                </a>
+                            </li>
+                            <li class="filter-option-selected">
+                                <a class="dropdown-menu-checkbox" href="#">
+                                    <i class="icon icon-check-mark filter-check-mark"></i>
+                                    Newest
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="button-dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">
+                            Show Awarder
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="filter-option-selected">
+                                <a class="dropdown-menu-checkbox" href="#">
+                                    <i class="icon icon-check-mark filter-check-mark"></i>
+                                    Award Winner
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <div class="devider">
+
+                    </div>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
     <div class="row main-product">
         <div class="col-3 product-tdm">
             <div class="slideshow-container ">
@@ -405,7 +533,8 @@
 
 <style>
     .main-product {
-        margin: 100px 0;
+        margin-left: 70px;
+        margin-top: 85px;
     }
 
 
@@ -418,9 +547,9 @@
         display: none
     }
 
-    .tile-color a img {
-        width: 267px;
-    }
+        .tile-color a img {
+            width: 100%;
+        }
 
     .title-product {
         margin: 0 10px;
@@ -452,14 +581,14 @@
 
     /* Slideshow container */
     .product-tdm {
-        width: 269px;
+        width: 290px;
         position: relative;
         margin: 5px;
         height: 500px;
         border: 1px solid transparent;
         transition: border .75s;
         padding: 0;
-        background-color: antiquewhite;
+        background-color: #FBFBFB;
     }
 
         .product-tdm:hover {
@@ -488,3 +617,29 @@
         border-bottom-color: black;
     }
 </style>
+<script>
+    jQuery(document).ready(function (e) {
+        function t(t) {
+            e(t).bind("click", function (t) {
+                t.preventDefault();
+                e(this).parent().fadeOut()
+            })
+        }
+        e(".dropdown-toggle").click(function () {
+            var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+            e(".button-dropdown .dropdown-menu").hide();
+            e(".button-dropdown .dropdown-toggle").removeClass("active");
+            if (t) {
+                e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+            }
+        });
+        e(document).bind("click", function (t) {
+            var n = e(t.target);
+            if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+        });
+        e(document).bind("click", function (t) {
+            var n = e(t.target);
+            if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+        })
+    });
+</script>
