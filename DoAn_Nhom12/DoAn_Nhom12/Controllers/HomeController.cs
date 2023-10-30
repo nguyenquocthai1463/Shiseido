@@ -11,7 +11,7 @@ namespace DoAn_Nhom12.Controllers
         //
         // GET: /Home/
 
-        public ActionResult Index()
+        public ActionResult TrangChu()
         {
             return View();
         }

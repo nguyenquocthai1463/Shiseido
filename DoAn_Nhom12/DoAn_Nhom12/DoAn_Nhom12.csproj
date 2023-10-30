@@ -222,9 +222,9 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shiseido\_LayoutPage1.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\TrangDiemMoi.cshtml" />
     <Content Include="Views\Home\ProductDetails.cshtml" />
+    <Content Include="Views\Home\TrangChu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
